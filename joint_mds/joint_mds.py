@@ -1,9 +1,9 @@
 import torch
 from tqdm import tqdm
 from sklearn.decomposition import PCA
-from utils.ot_utils import inv_ot
-import utils.ot_utils as ot_utils
-import utils.mds as mds
+from joint_mds.utils.ot_utils import inv_ot
+from joint_mds.utils import ot_utils as ot_utils
+from joint_mds.utils import mds as mds
 from timeit import default_timer as timer
 from sklearn.metrics.pairwise import euclidean_distances
 

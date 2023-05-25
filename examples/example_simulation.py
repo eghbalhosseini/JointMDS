@@ -8,9 +8,8 @@ import argparse
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
-from joint_mds import JointMDS
-import utils.scores as scores
-from utils.utils import plot_embedding, geodesic_dist
+from joint_mds import JointMDS, utils as scores
+from joint_mds.utils.utils import plot_embedding, geodesic_dist
 
 
 def load_data(dataset="s1", prefix="../datasets"):

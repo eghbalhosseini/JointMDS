@@ -8,9 +8,8 @@ import numpy as np
 import scipy.io as sio
 import matplotlib.pyplot as plt
 
-from joint_mds import JointMDS
-from utils.utils import geodesic_dist, plot_embedding
-import utils.scores as scores
+from joint_mds import JointMDS, utils as scores
+from joint_mds.utils.utils import geodesic_dist, plot_embedding
 
 
 def get_data(x, y, n_per_class=300):
